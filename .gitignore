@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Mac
+.DS_Store
+
+# Vim
+*.swp
+
+# Airflow
+airflow/logs/
+airflow/airflow.db

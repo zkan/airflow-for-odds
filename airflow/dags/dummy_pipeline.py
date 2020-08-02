@@ -12,7 +12,7 @@ dag = DAG('dummy_pipeline',
           start_date=timezone.datetime(2020, 8, 1),
           catchup=False)
 
-t1 = DummyOperator(task_id='my_1st_dummy_task',dag=dag)
+t1 = DummyOperator(task_id='my_1st_dummy_task', dag=dag)
 t2 = DummyOperator(task_id='my_2nd_dummy_task', dag=dag)
 t3 = DummyOperator(task_id='my_3rd_dummy_task', dag=dag)
 t4 = DummyOperator(task_id='my_4th_dummy_task', dag=dag)
